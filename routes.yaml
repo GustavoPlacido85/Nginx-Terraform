@@ -10,11 +10,11 @@ spec:
   rules:
     - http:
         paths:
-          - path: /apple
+          - path: /pod1
             backend:
-              serviceName: apple-service
+              serviceName: pod1-service
               servicePort: 5678
-          - path: /banana
+          - path: /pod2
             backend:
-              serviceName: banana-service
+              serviceName: pod2-service
               servicePort: 5678
