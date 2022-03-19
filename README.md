@@ -61,6 +61,6 @@ Copiamos el nombre de DNS del balanceador https://console.aws.amazon.com/ec2/v2/
 
       curl {AWS_LOAD_BALANCER_URL}/pod2
 
-9.- Si desea destruir los recursos creador:
+9.- Si desea destruir los recursos creados:
 
       terraform destroy
