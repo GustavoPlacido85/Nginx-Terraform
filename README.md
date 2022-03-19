@@ -33,7 +33,7 @@ Recursos que se crearan en la cuenta de AWS:
 3.- Creamos una variable de entorno para conservar los datos de kubeconfig:
 
 
-      export KUBECONFIG=${PWD}/kubeconfig_cluster_test
+      export KUBECONFIG=${PWD}/kubeconfig_my-cluster
 
 4.- Creamos la entrada de nginx dentro del clúster:
 
